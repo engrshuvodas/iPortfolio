@@ -26,11 +26,13 @@
     20. =footer
     21. =banner section
     22. =fun facts section
-    23. =courses section
+    23. =services section
     24. =testimonials section
     25. =bai section
     26. =course details section
     27. =contact section
+
+
 
 ..................................................................................... */
 
@@ -755,57 +757,65 @@ textarea.form-control{
 }
 
 /* .................................
-23. =courses section
+23. =services section (chatgpt)
  .................................*/
-.courses-item{
-    margin-bottom: 30px;
-    position: relative;
-}
-.courses-item .img-box img{
-    width: 100%;
-    border-radius: 5px;
-}
-.courses-item .link{
-    color: var(--black-70);
-    display: inline-block;
-}
-.courses-item .title{
-    text-transform: capitalize;
-    margin: 15px 0;
-    transition: color 0.3s ease;
-}
-.courses-item:hover .title{
-    color: var(--main-color);
-}
-.courses-item .instructor{
-    text-transform: capitalize;
-    margin: 0 0 12px;
 
+/* Main container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
-.courses-item .instructor img{
-    width: 30px;
-    border-radius: 50%;
-    margin-right: 5px;
+
+/* Services section */
+.services {
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    margin: 50px;
 }
-.courses-item .rating{
+
+.services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Individual service card styling */
+.card {
+    background-color: var(--your-custom-color); /* Use your custom color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: var(--another-custom-color); 
+    color: var(--WHITE); /* Text color on hover */
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .icon {
+    font-size: 40px;
+    color: var(--orange); /* Use the orange color variable */
+}
+
+.card .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card p {
     font-size: 14px;
-}
-.courses-item .average-rating{
-    font-weight: 600;
-    color: var(--orange);
-}
-.courses-item .average-stars i{
-    color: var(--orange);
-}
-.courses-item .price{
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    background-color: var(--main-color);
-    color: var(--WHITE);
-    font-weight: 600;
-    padding: 4px 8px;
-    border-radius: 4px;
+    color: var(--black-70); /* Use the black-70 color variable */
 }
 
 /*.................................
@@ -1218,3 +1228,16 @@ textarea.form-control{
     color: var(--WHITE);
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
