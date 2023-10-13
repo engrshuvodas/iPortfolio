@@ -300,7 +300,6 @@ h3{
 .circular-img-circle{
     height: 360px;
     width: 360px;
-    /* background-color: red; */
     position: absolute;
     left: 0;
     bottom: 0;
@@ -766,6 +765,18 @@ textarea.form-control{
     margin: 0 auto;
     padding: 20px;
 }
+.container h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--black-90);
+}
+
+.testimonials-section .img-box{
+    height: 150px;
+    width: 150px;
+    background-color: var(--select-box-bg-color);
+    margin: 30px auto 50px;
+}
 
 /* Services section */
 .services {
@@ -782,9 +793,9 @@ textarea.form-control{
 
 /* Individual service card styling */
 .card {
-    background-color: var(--your-custom-color); /* Use your custom color */
+    background-color: var(--bs-gutter-x); 
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px var(--select-box-bg-color);
     padding: 20px;
     margin: 10px;
     transition: background-color 0.3s;
@@ -792,8 +803,8 @@ textarea.form-control{
 }
 
 .card:hover {
-    background-color: var(--another-custom-color); 
-    color: var(--WHITE); /* Text color on hover */
+    background-color: var(--orange-light); 
+    /* color: var(--WHITE);  */
 }
 
 .card .content {
