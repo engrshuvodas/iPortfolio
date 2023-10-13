@@ -792,7 +792,7 @@ textarea.form-control{
 }
 
 /* Individual service card styling */
-.card {
+.cards {
     background-color: var(--bs-gutter-x); 
     border-radius: 10px;
     box-shadow: 0 0 10px var(--select-box-bg-color);
@@ -802,23 +802,23 @@ textarea.form-control{
     cursor: pointer;
 }
 
-.card:hover {
+.cards:hover {
     background-color: var(--orange-light); 
     /* color: var(--WHITE);  */
 }
 
-.card .content {
+.cards .content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.card .icon {
+.cards .icon {
     font-size: 40px;
     color: var(--orange); /* Use the orange color variable */
 }
 
-.card .title {
+.cards .title {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
